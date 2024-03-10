@@ -37,7 +37,7 @@ const WeatherApp = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=1f0ea49f65b414b773c7d53946e90b2b&units=metric`);
+        const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=2a49c59a622719376c3ff23d0bbf0ba1&units=metric`);
         if (!response.ok) {
           throw new Error('City not found');
         }
